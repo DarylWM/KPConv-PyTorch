@@ -85,8 +85,8 @@ class S3DISDataset(PointCloudDataset):
         # List of classes ignored during training (can be empty)
         self.ignored_labels = np.array([])
 
-        # Dataset folder
-        self.path = '../../Data/S3DIS'
+        # Dataset folder (asumes we're running inside a container)
+        self.path = '/datasets/Stanford3dDataset_v1.2'
 
         # Type of task conducted on this dataset
         self.dataset_task = 'cloud_segmentation'
