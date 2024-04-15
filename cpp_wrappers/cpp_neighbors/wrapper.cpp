@@ -1,6 +1,6 @@
 #include <Python.h>
 #include <numpy/arrayobject.h>
-#include "neighbors/neighbors.h"
+#include "radius_neighbors/neighbors.h"
 #include <string>
 
 
