@@ -8,7 +8,7 @@ import numpy.distutils.misc_util
 # *****************************
 
 SOURCES = ["../cpp_utils/cloud/cloud.cpp",
-             "neighbors/neighbors.cpp",
+             "radius_neighbors/neighbors.cpp",
              "wrapper.cpp"]
 
 module = Extension(name="radius_neighbors",
